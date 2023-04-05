@@ -25,5 +25,4 @@ para criar uma venv p comando no power shell é:
 python -m venv venv
 ou
 python -m venv (qualquer nome da pasta a ser criada)
- 
 '''
