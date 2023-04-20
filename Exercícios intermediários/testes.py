@@ -1,26 +1,21 @@
-def escolha():
-    print('informe uma das opções a seguir:')
-    print('1 - adiconar')
-    print('2 - refazer')
-    print('3 - desfazer')
-    
-    opcao = int(input('informe uma opção: '))
-    return opcao
+'''int INDICE = 13, SOMA = 0, K = 0;
 
-def teste ():
-    print('chegou na função')
+enquanto K < INDICE faça
+{
+K = K + 1;
+SOMA = SOMA + K;
+}
 
-def menu():
-    op = escolha()
-    opcoes(op)
+imprimir(SOMA);'''
+
+
+i = 13
+soma = 0
+k = 0
+while True:
     
-    
-def opcoes(op):
-    while True:
-        print(f'dentro da fundao opções{op}')
-        if op == 1:
-            teste()
-            break
-    menu()
-        
-menu()
+    k = k + 1
+    soma = soma + k
+    if k > i:
+        break
+print(soma)
