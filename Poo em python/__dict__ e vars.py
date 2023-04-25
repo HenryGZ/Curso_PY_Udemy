@@ -1,4 +1,5 @@
 #__dict__ e vars para atributos de instância
+#acessam os valores
 
 class Pessoa:
     ano_atual = 2022
